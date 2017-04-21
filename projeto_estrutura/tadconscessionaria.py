@@ -13,7 +13,8 @@ class Concessionaria:
 
     def buscaVeiculo(self, key):
         a = self.arvoreVeiculos.busca(key)
-        a.printveiculo()
+        return a
+
     def imprimirveiculo(self):
         lista = []
         self.arvoreVeiculos.imprimir(lista)
@@ -21,6 +22,7 @@ class Concessionaria:
             i.printveiculo()
 
     def removerVeiculo(self, chassi):
+        self.quantidadeVeiculos -= 1
         self.arvoreVeiculos.remove(chassi)
 
     def retornaChassi(self, veiculo):

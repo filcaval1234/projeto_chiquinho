@@ -27,6 +27,7 @@ class ABB:
                 return esq
             elif dir is not None:
                 return dir
+        return None
 
     def remove(self, key, root=-1):
         if root == -1:
