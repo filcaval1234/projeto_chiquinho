@@ -9,7 +9,19 @@ class Concessionaria:
     def inserirVeiculo(self, nome, marca, ano, chassi, preco):
         veiculo = Veiculo(nome=nome,marca=marca,ano=ano, chassi=chassi, preco=preco)
         self.quantidadeVeiculos +=1
-        self.arvoreVeiculos.insert(veiculo, self.retornaChassi(veiculo))
+        self.arvoreVeiculos.insert(data=veiculo, key=self.retornaChassi(veiculo))
+
+    def buscaVeiculo(self, key):
+        a = self.arvoreVeiculos.busca(key)
+        a.printveiculo()
+    def imprimirveiculo(self):
+        lista = []
+        self.arvoreVeiculos.imprimir(lista)
+        for i in lista:
+            i.printveiculo()
+
+    def removerVeiculo(self, chassi):
+        self.arvoreVeiculos.remove(chassi)
 
     def retornaChassi(self, veiculo):
         return veiculo.chassi
