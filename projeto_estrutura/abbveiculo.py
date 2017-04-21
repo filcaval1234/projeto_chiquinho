@@ -63,7 +63,7 @@ class ABB:
                 return key1, data1
 
 
-    def imprimir(self, lista,root = -1):
+    def imprimir(self, lista, root = -1):
         if root == -1:
             root = self.root
         if root is not None:
