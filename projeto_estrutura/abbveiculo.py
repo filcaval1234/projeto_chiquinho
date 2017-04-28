@@ -62,7 +62,6 @@ class ABB:
                 root.data = data
                 return key1, data1
 
-
     def imprimir(self, lista, root = -1):
         if root == -1:
             root = self.root

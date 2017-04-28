@@ -1,31 +1,19 @@
 
 -------------------------------
+Chassi do carro: 2
+Nome do carro: maverik
+Ano: 1974
+Marca: ford
+Preço: 15000
+-------------------------------
 Chassi do carro: 3
 Nome do carro: fordk
 Ano: 2010
 Marca: ford
 Preço: 200000
 -------------------------------
-Chassi do carro: 11
-Nome do carro: pipda
-Ano: 67
-Marca: volks
-Preço: 1000
--------------------------------
-Chassi do carro: 14
-Nome do carro: galardo
-Ano: 300
-Marca: lamburgini
-Preço: 2000000000
--------------------------------
 Chassi do carro: 87
 Nome do carro: porch
 Ano: 2015
 Marca: porch
 Preço: 120000
--------------------------------
-Chassi do carro: 234
-Nome do carro: fasdf
-Ano: 23324
-Marca: asdf
-Preço: 23424
